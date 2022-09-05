@@ -46,6 +46,14 @@
     width: calc( (100% / 12) * 12 );
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
 /* palette */
 
 :root {
@@ -61,6 +69,7 @@
     --dark-footer: #F08080;
     --light-footer: #FFC0CB;
     --light: #FFFFFF;
+    --head-pink: #ee82ee;
 }
 
 /* header */
@@ -92,7 +101,7 @@
 }
 
 .head_block {
-    background-color: #ee82ee;
+    background-color: var(--head-pink);
     height: 320px;
     width: 50%;
     max-width: 1000px;
@@ -117,10 +126,44 @@
 }
 
 .green {
-    background-color: #228b22;
+    background-color: var(--darker-main);
     max-width: 1200px;
     width: 100%;
-    height: 800px;
+    height: 600px;
     margin: 2rem auto;
+}
+
+/* footer */
+
+#site_footer {
+    background-color: var(--darker);
+}
+
+.dark_footer {
+    background-color: var(--dark-footer);
+    height: 400px;
+    margin: 10px 0px 25px;
+}
+
+.azure {
+    background-color: var(--main);
+    height: 400px;
+    margin: 10px 0px 25px;
+    border: 1px solid white;
+}
+
+.box_footer {
+    background-color: var(--light-main);
+    height: 80px;
+    max-width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_logo,
+.sign_in {
+    background-color: #ffb6c1;
+    padding: 0.5rem;
+    border: 1px solid black;
 }
 
