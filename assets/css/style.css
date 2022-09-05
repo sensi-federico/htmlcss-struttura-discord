@@ -1,0 +1,29 @@
+
+
+/* common */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+#site_header {
+    background-color: aqua;
+    /* height: 100px; */
+    padding: 1rem;
+}
+
+    /* Navbar */
+
+#navbar {
+    display: flex;
+    background-color: yellow;
+    padding: 1rem 1rem;
+    margin: 0 10rem;
+    justify-content: space-between;
+}
+
+
